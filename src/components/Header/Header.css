@@ -1,0 +1,16 @@
+/* for large devices css */
+
+nav {
+    padding: 30px;
+}
+
+.gap {
+    gap: 60px;
+}
+
+.fillBtn {
+    background-color: #00A0AA;
+    padding: 15px;
+    width: 150px;
+   
+}
