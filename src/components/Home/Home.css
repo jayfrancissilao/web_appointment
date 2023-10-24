@@ -1,0 +1,12 @@
+p {
+    color: #00A0AA;
+}
+
+/* for laptop and desktop only */
+@media only screen and (min-width: 992px) {
+    .fillBtn {
+        margin-left: -1px;
+        color: white;
+    }
+
+}
