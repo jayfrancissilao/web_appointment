@@ -1,0 +1,26 @@
+/* desktop only */
+@media only screen and (min-width: 992px) {
+.center {
+    margin-left: 130px;
+    margin-top: 90px;
+   
+}
+.fillBtn {
+    background-color: #00A0AA;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px ;
+  
+   
+}
+.bg {
+    background-color: #F6F4EB;
+}
+
+.data-center {
+    text-align: center;
+}
+.data-description {
+    text-align: center;
+}
+}

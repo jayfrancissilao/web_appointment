@@ -1,0 +1,22 @@
+[
+    {
+        "id" : 1,
+        "name" : "Mental health Service",
+        "description" : "The Service provide immediate medical care to patients with acute illness or injuries that require immediate attension"
+    },
+    {
+        "id" : 2,
+        "name" : "Eye Diseases Services",
+        "description" : "The Service provide immediate medical care to patients with acute illness or injuries that require immediate attension"
+    },
+    {
+        "id" : 3,
+        "name" : "Vacination Services",
+        "description" : "The Service provide immediate medical care to patients with acute illness or injuries that require immediate attension"
+    },
+    {
+        "id" : 4,
+        "name" : "Cardiology Services",
+        "description" : "The Service provide immediate medical care to patients with acute illness or injuries that require immediate attension"
+    }
+]

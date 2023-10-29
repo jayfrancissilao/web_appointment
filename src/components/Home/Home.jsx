@@ -18,7 +18,6 @@ const Home = () => {
           </h3>
           <button className="fillBtn mt-10 font-bold">Discover More</button>
         </div>
-       
       </div>
     </div>
   );

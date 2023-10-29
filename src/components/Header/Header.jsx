@@ -55,7 +55,7 @@ useEffect(() => {
           </div>
           {/* btn for large screen only  */}
           <div className="lg:block hidden">
-            <button className="font-bold"><img src={contactIcon} alt=""  className=""/></button>
+            <button className="font-bold mr-5"><img src={contactIcon} alt=""  className=""/></button>
             <button className=" fillBtn text-white">Appointment</button>{/* for rounded button use rounded-full */}
           </div>
           {/* btn for small devices */}
