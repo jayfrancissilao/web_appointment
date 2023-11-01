@@ -2,6 +2,8 @@ import React from "react";
 import "/src/components/Treatment/Treatment.css"; // import css
 import gridImage from "/src/components/Treatment/gridImg.png"; //import image here
 import DataTreatmentSkills from "/src/Data/treatment.json"; // import json file here
+import icon1 from "/src/components/Treatment/icon.png"; 
+import arrow from '/src/components/Treatment/arrow.png'
 
 const Treatment = () => {
   return (
@@ -31,17 +33,29 @@ const Treatment = () => {
       <div className="mt-20">
         <span>SERVICES & TREATMENT</span>
         <div className="">
+          {/* text */}
           <h1 className="inline-block lg:text-4xl font-bold">
             More than 40 specialty <br /> and health care services
           </h1>
-          <button className="inline-block fillBtn">See All Services</button>
+          {/* button */}
+          <button className="inline-block fillBtn gap-inline">
+            See All Services
+          </button>
         </div>
-        <div className="mt-10 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 ">
+        <div className="mt-10 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1">
           {DataTreatmentSkills.map((data) => {
             return (
               <div key={data.id} className="bg rounded-lg gap-5 m-2 p-5">
-                <h1 className="font-bold lg:text-2xl data-center">{data.name}</h1>
-                <p className="text-black mt-5 data-description">{data.description}</p>
+                <h1 className="font-bold lg:text-2xl data-center">
+                  <img src={icon1} alt="" className="inline-block mr-5" />
+                  {data.name}
+                </h1>
+                <p className="text-black mt-5 data-description">
+                  {data.description}
+                  <button className="btn-arrow">
+                  <img src={arrow} alt="" className="inline-block" />
+                  </button>
+                </p>
               </div>
             );
           })}

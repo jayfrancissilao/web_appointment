@@ -1,26 +1,33 @@
 /* desktop only */
 @media only screen and (min-width: 992px) {
-.center {
+  .center {
     margin-left: 130px;
     margin-top: 90px;
-   
-}
-.fillBtn {
-    background-color: #00A0AA;
+  }
+  .fillBtn {
+    background-color: #00a0aa;
     padding: 10px;
     width: 150px;
-    border-radius: 5px ;
-  
-   
-}
-.bg {
-    background-color: #F6F4EB;
-}
+    border-radius: 5px;
+  }
+  .bg {
+    background-color: #f6f4eb;
+  }
 
-.data-center {
+  .data-center {
     text-align: center;
-}
-.data-description {
-    text-align: center;
-}
+  }
+  .data-description {
+    text-align: left;
+  }
+
+  .gap-inline {
+    margin-left: 1200px;
+  }
+
+  .btn-arrow {
+    margin-top: 10px;
+    margin-left: 350px;
+  }
+
 }
